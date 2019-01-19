@@ -30,6 +30,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# add comment nodel to the website
+gem 'acts_as_commentable'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 
