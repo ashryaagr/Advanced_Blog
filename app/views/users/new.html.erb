@@ -1,7 +1,7 @@
 <% provide(:title, 'Sign up') %>
 <h1>Sign up</h1>
 <%= simple_form_for @user do |f| %>
-  <%= render 'shared/error_messages'%>
+  <%= render 'shared/error_messages', object: f.object %>
   <%= f.input :name %>
   <%= f.input :email %>
   <%= f.input :password %>

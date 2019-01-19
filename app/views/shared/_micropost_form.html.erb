@@ -1,0 +1,7 @@
+<%= simple_form_for(@micropost) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="field">
+    <%= f.input :content, placeholder: "Compose new Post..." , :cols => 10,  as: :text%>
+  </div>
+  <%= f.button :submit, "Post" %>
+<% end %>
