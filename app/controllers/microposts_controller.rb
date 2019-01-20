@@ -13,7 +13,9 @@ class MicropostsController < ApplicationController
       render 'static_pages/home'
     end
   end
-
+  def show
+    @micropost = Micropost.find(params[:id])
+  end
   def destroy
     @micropost.destroy
     flash[:success] = "Micropost deleted"
