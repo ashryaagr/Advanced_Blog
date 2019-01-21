@@ -34,7 +34,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'acts_as_commentable'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
-
+# support for images
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -79,8 +81,9 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '~> 1.1', '>= 1.1.4'
+#  gem 'pg', '~> 1.1', '>= 1.1.4'
   gem 'rails_12factor'
+  gem 'fog', '~> 2.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

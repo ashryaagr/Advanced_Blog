@@ -12,7 +12,7 @@ Rails.application.configure do
     port:                 587,
     domain:               'localhost:3000',
     user_name:            'ashryaagrdeveloper@gmail.com',
-    password:             '$abcdef123456',
+    password:             '#',
     authentication:       'plain',
     enable_starttls_auto: true }
   # Do not eager load code on boot.
