@@ -1,3 +1,3 @@
 Advanced Blog
 ---------------------------------------------------------------------------------------------------------
-This is the code for a web app where users can sign up, login and create posts
+ It is an app that aims to connect people . It consists of a platform built using Rails, which is a framework of ruby . The platform also serves as a discussion forum for people .
